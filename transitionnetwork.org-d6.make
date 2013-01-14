@@ -2,12 +2,29 @@
 core = 6.x
 
 api = 2
-; Please fill the following out. Type may be one of get, cvs, git, bzr or svn,
-; and url is the url of the download.
+
+; Latest Pressflow from Omega8cc
 projects[pressflow][type] = "core"
 projects[pressflow][download][type] = "git"
 projects[pressflow][download][url] = "git://github.com/omega8cc/pressflow6.git"
 projects[pressflow][download][branch] = "master"
+
+
+; Modules set for specific version or patched
+; -- revisit these occasionally and try to upgrade or improve
+projects[] = "context"
+projects[context][version] = "2.1"
+
+; TODO patch!
+projects[] = "gmap"
+projects[gmap][version] = "1.x-dev"
+
+projects[] = "notifications"
+projects[notifications][version] = "4.x-dev"
+
+projects[] = "recaptcha"
+projects[recaptcha][version] = "1.x-dev"
+
   
 ; Modules
 projects[] = "abuse"
@@ -32,7 +49,6 @@ projects[] = "cck"
 projects[] = "content_access"
 projects[] = "content_profile"
 projects[] = "content_taxonomy"
-projects[] = "context"
 projects[] = "cnr"
 projects[] = "custom_breadcrumbs"
 projects[] = "customerror"
@@ -44,12 +60,6 @@ projects[] = "features"
 projects[] = "feeds"
 projects[] = "filefield"
 projects[] = "fivestar"
-; Please fill the following out. Type may be one of get, cvs, git, bzr or svn,
-; and url is the url of the download.
-projects[gmap][download][type] = ""
-projects[gmap][download][url] = ""
-projects[gmap][type] = "module"
-
 projects[] = "google_analytics"
 projects[] = "hierarchical_select"
 projects[] = "image_resize_filter"
@@ -58,13 +68,6 @@ projects[] = "imagecache"
 projects[] = "imagefield"
 projects[] = "imce"
 projects[] = "imce_wysiwyg"
-; Please fill the following out. Type may be one of get, cvs, git, bzr or svn,
-; and url is the url of the download.
-projects[initiatives_directory][download][type] = ""
-projects[initiatives_directory][download][url] = ""
-projects[initiatives_directory][type] = "module"
-projects[initiatives_directory][subdir] = "sites/all/modules/custom/features/initiatives_directory"
-
 projects[] = "insert"
 projects[] = "itweak_upload"
 projects[] = "job_scheduler"
@@ -75,18 +78,8 @@ projects[] = "location"
 projects[] = "logintoboggan"
 projects[] = "mail_logger"
 projects[] = "maxlength"
-; Please fill the following out. Type may be one of get, cvs, git, bzr or svn,
-; and url is the url of the download.
-projects[media_vimeo][download][type] = ""
-projects[media_vimeo][download][url] = ""
-projects[media_vimeo][type] = "module"
-
-; Please fill the following out. Type may be one of get, cvs, git, bzr or svn,
-; and url is the url of the download.
-projects[media_youtube][download][type] = ""
-projects[media_youtube][download][url] = ""
-projects[media_youtube][type] = "module"
-
+projects[] = "media_vimeo"
+projects[] = "media_youtube"
 projects[] = "menu_block"
 projects[] = "mimemail"
 projects[] = "multicolumncheckboxesradios"
@@ -95,7 +88,6 @@ projects[] = "nodeaccess_userreference"
 projects[] = "nodeauthor"
 projects[] = "nodehierarchy"
 projects[] = "nodequeue"
-projects[] = "notifications"
 projects[] = "og"
 projects[] = "panels"
 projects[] = "path_redirect"
@@ -108,15 +100,41 @@ projects[] = "rules"
 projects[] = "site_map"
 projects[] = "stringoverrides"
 projects[] = "strongarm"
-; Please fill the following out. Type may be one of get, cvs, git, bzr or svn,
-; and url is the url of the download.
-projects[tagadelic][download][type] = ""
-projects[tagadelic][download][url] = ""
-projects[tagadelic][type] = "module"
-
+projects[] = "tagadelic"
 projects[] = "tagadelic_views"
 projects[] = "terms_of_use"
 projects[] = "token"
+projects[] = "unique_field"
+projects[] = "views"
+projects[] = "views_bonus"
+projects[] = "views_customfield"
+projects[] = "views_datasource"
+projects[] = "views_slideshow"
+projects[] = "votingapi"
+projects[] = "web_widgets"
+projects[] = "webform"
+projects[] = "wysiwyg"
+projects[] = "xmlsitemap"
+
+
+; Custom modules
+; Please fill the following out. Type may be one of get, cvs, git, bzr or svn,
+; and url is the url of the download.
+projects[transition_pse_widget][download][type] = ""
+projects[transition_pse_widget][download][url] = ""
+projects[transition_pse_widget][type] = "module"
+projects[transition_pse_widget][subdir] = "sites/all/modules/custom/features/transition_pse_widget"
+
+
+
+; Features
+; Please fill the following out. Type may be one of get, cvs, git, bzr or svn,
+; and url is the url of the download.
+projects[initiatives_directory][download][type] = ""
+projects[initiatives_directory][download][url] = ""
+projects[initiatives_directory][type] = "module"
+projects[initiatives_directory][subdir] = "sites/all/modules/custom/features/initiatives_directory"
+
 ; Please fill the following out. Type may be one of get, cvs, git, bzr or svn,
 ; and url is the url of the download.
 projects[transition_alert_web_contacts][download][type] = ""
@@ -159,12 +177,6 @@ projects[transition_people][download][url] = ""
 projects[transition_people][type] = "module"
 projects[transition_people][subdir] = "sites/all/modules/custom/features/transition_people"
 
-; Please fill the following out. Type may be one of get, cvs, git, bzr or svn,
-; and url is the url of the download.
-projects[transition_pse_widget][download][type] = ""
-projects[transition_pse_widget][download][url] = ""
-projects[transition_pse_widget][type] = "module"
-projects[transition_pse_widget][subdir] = "sites/all/modules/custom/features/transition_pse_widget"
 
 ; Please fill the following out. Type may be one of get, cvs, git, bzr or svn,
 ; and url is the url of the download.
@@ -180,19 +192,7 @@ projects[transition_themes][download][url] = ""
 projects[transition_themes][type] = "module"
 projects[transition_themes][subdir] = "sites/all/modules/custom/features/transition_themes"
 
-projects[] = "unique_field"
-projects[] = "views"
-projects[] = "views_bonus"
-projects[] = "views_customfield"
-projects[] = "views_datasource"
-projects[] = "views_slideshow"
-projects[] = "votingapi"
-projects[] = "web_widgets"
-projects[] = "webform"
-projects[] = "wysiwyg"
-projects[] = "xmlsitemap"
-; Themes
-projects[] = "rootcandy"
+
 ; Modules
 ; Please fill the following out. Type may be one of get, cvs, git, bzr or svn,
 ; and url is the url of the download.
@@ -248,7 +248,10 @@ projects[transition_site_network][download][type] = ""
 projects[transition_site_network][download][url] = ""
 projects[transition_site_network][type] = "module"
 
+
+
 ; Themes
+projects[] = "rootcandy"
 ; Please fill the following out. Type may be one of get, cvs, git, bzr or svn,
 ; and url is the url of the download.
 projects[transition][download][type] = ""
