@@ -4,10 +4,11 @@ core = 6.x
 api = 2
 ; Please fill the following out. Type may be one of get, cvs, git, bzr or svn,
 ; and url is the url of the download.
-projects[pressflow][download][type] = ""
-projects[pressflow][download][url] = ""
 projects[pressflow][type] = "core"
-
+projects[pressflow][download][type] = "git"
+projects[pressflow][download][url] = "git://github.com/omega8cc/pressflow6.git"
+projects[pressflow][download][branch] = "master"
+  
 ; Modules
 projects[] = "abuse"
 projects[] = "views_bulk_operations"
