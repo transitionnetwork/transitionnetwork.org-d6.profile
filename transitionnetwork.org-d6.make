@@ -10,7 +10,8 @@ projects[pressflow][download][url] = "git://github.com/omega8cc/pressflow6.git"
 projects[pressflow][download][branch] = "master"
 
 
-; Modules set for specific version or patched
+; Contrib Modules - versions & patched
+; -- set for specific version or patched.
 ; -- revisit these occasionally and try to upgrade or use standard versions
 projects[] = "context"
 projects[context][version] = "2.1"
@@ -26,7 +27,7 @@ projects[] = "recaptcha"
 projects[recaptcha][version] = "1.x-dev"
 
   
-; Modules
+; Contrib  Modules
 projects[abuse][subdir] = "contrib"
 projects[views_bulk_operations][subdir] = "contrib"
 projects[admin_menu][subdir] = "contrib"
@@ -119,47 +120,30 @@ projects[xmlsitemap][subdir] = "contrib"
 
 
 ; Custom modules
-; Please fill the following out. Type may be one of get, cvs, git, bzr or svn,
-; and url is the url of the download.
-projects[TTtriggers][download][type] = ""
-projects[TTtriggers][download][url] = ""
-projects[TTtriggers][type] = "module"
-
-; Please fill the following out. Type may be one of get, cvs, git, bzr or svn,
-; and url is the url of the download.
-projects[ijk_plugins][download][type] = ""
-projects[ijk_plugins][download][url] = ""
 projects[ijk_plugins][type] = "module"
+projects[ijk_plugins][download][type] = "git"
+projects[ijk_plugins][download][url] = "git://github.com/i-jk/ijk_plugins.git"
+projects[ijk_plugins][download][branch] = "master"
 
-; Please fill the following out. Type may be one of get, cvs, git, bzr or svn,
-; and url is the url of the download.
-projects[transition_extras][download][type] = ""
-projects[transition_extras][download][url] = ""
 projects[transition_extras][type] = "module"
+projects[transition_extras][download][type] = "git"
+projects[transition_extras][download][url] = "git://github.com/transitionnetwork/transition_extras.git"
+projects[transition_extras][download][branch] = "master"
 
-; Please fill the following out. Type may be one of get, cvs, git, bzr or svn,
-; and url is the url of the download.
-projects[transition_project_massage][download][type] = ""
-projects[transition_project_massage][download][url] = ""
 projects[transition_project_massage][type] = "module"
+projects[transition_project_massage][download][type] = "git"
+projects[transition_project_massage][download][url] = "git://github.com/transitionnetwork/transition_project_massage.git"
+projects[transition_project_massage][download][branch] = "master"
 
-; Please fill the following out. Type may be one of get, cvs, git, bzr or svn,
-; and url is the url of the download.
-projects[transition_pse][download][type] = ""
-projects[transition_pse][download][url] = ""
 projects[transition_pse][type] = "module"
+projects[transition_pse][download][type] = "git"
+projects[transition_pse][download][url] = "git://github.com/transitionnetwork/transition_pse.git"
+projects[transition_pse][download][branch] = "master"
 
-; Please fill the following out. Type may be one of get, cvs, git, bzr or svn,
-; and url is the url of the download.
-projects[transition_sharing_engine_client][download][type] = ""
-projects[transition_sharing_engine_client][download][url] = ""
 projects[transition_sharing_engine_client][type] = "module"
-
-; Please fill the following out. Type may be one of get, cvs, git, bzr or svn,
-; and url is the url of the download.
-projects[transition_site_network][download][type] = ""
-projects[transition_site_network][download][url] = ""
-projects[transition_site_network][type] = "module"
+projects[transition_sharing_engine_client][download][type] = "git"
+projects[transition_sharing_engine_client][download][url] = "git://github.com/transitionnetwork/transition_sharing_engine_client.git"
+projects[transition_sharing_engine_client][download][branch] = "master"
 
 
 ; Features
@@ -236,22 +220,20 @@ projects[transition_themes][subdir] = "sites/all/modules/custom/features/transit
 
 
 
-; Themes
+; Contrib Themes
 projects[] = "rootcandy"
-; Please fill the following out. Type may be one of get, cvs, git, bzr or svn,
-; and url is the url of the download.
-projects[transition][download][type] = ""
-projects[transition][download][url] = ""
-projects[transition][type] = "theme"
 
-; Please fill the following out. Type may be one of get, cvs, git, bzr or svn,
-; and url is the url of the download.
-projects[transition2][download][type] = ""
-projects[transition2][download][url] = ""
+projects[pse][type] = "theme"
+projects[pse][download][type] = "git"
+projects[pse][download][url] = "git://github.com/transitionnetwork/pse.git"
+projects[pse][download][branch] = "master"
+
 projects[transition2][type] = "theme"
+projects[transition2][download][type] = "git"
+projects[transition2][download][url] = "git://github.com/transitionnetwork/transition2.git"
+projects[transition2][download][branch] = "master"
 
-; Please fill the following out. Type may be one of get, cvs, git, bzr or svn,
-; and url is the url of the download.
-projects[transitioncms][download][type] = ""
-projects[transitioncms][download][url] = ""
 projects[transitioncms][type] = "theme"
+projects[transitioncms][download][type] = "git"
+projects[transitioncms][download][url] = "git://github.com/transitionnetwork/transitioncms.git"
+projects[transitioncms][download][branch] = "master"
