@@ -11,7 +11,7 @@ projects[pressflow][download][branch] = "master"
 
 
 ; Modules set for specific version or patched
-; -- revisit these occasionally and try to upgrade or improve
+; -- revisit these occasionally and try to upgrade or use standard versions
 projects[] = "context"
 projects[context][version] = "2.1"
 
@@ -27,97 +27,149 @@ projects[recaptcha][version] = "1.x-dev"
 
   
 ; Modules
-projects[] = "abuse"
-projects[] = "views_bulk_operations"
-projects[] = "admin_menu"
-projects[] = "advanced_forum"
-projects[] = "author_pane"
-projects[] = "auto_nodetitle"
-projects[] = "autoload"
-projects[] = "backup_migrate"
-projects[] = "service_links"
-projects[] = "better_formats"
-projects[] = "block_class"
-projects[] = "ctools"
-projects[] = "calendar"
-projects[] = "cck_private_fields"
-projects[] = "coder"
-projects[] = "coder_tough_love"
-projects[] = "colorbox"
-projects[] = "contact"
-projects[] = "cck"
-projects[] = "content_access"
-projects[] = "content_profile"
-projects[] = "content_taxonomy"
-projects[] = "cnr"
-projects[] = "custom_breadcrumbs"
-projects[] = "customerror"
-projects[] = "date"
-projects[] = "devel"
-projects[] = "email"
-projects[] = "emfield"
-projects[] = "features"
-projects[] = "feeds"
-projects[] = "filefield"
-projects[] = "fivestar"
-projects[] = "google_analytics"
-projects[] = "hierarchical_select"
-projects[] = "image_resize_filter"
-projects[] = "imageapi"
-projects[] = "imagecache"
-projects[] = "imagefield"
-projects[] = "imce"
-projects[] = "imce_wysiwyg"
-projects[] = "insert"
-projects[] = "itweak_upload"
-projects[] = "job_scheduler"
-projects[] = "jquery_ui"
-projects[] = "jquery_update"
-projects[] = "link"
-projects[] = "location"
-projects[] = "logintoboggan"
-projects[] = "mail_logger"
-projects[] = "maxlength"
-projects[] = "media_vimeo"
-projects[] = "media_youtube"
-projects[] = "menu_block"
-projects[] = "mimemail"
-projects[] = "multicolumncheckboxesradios"
-projects[] = "node_limitnumber"
-projects[] = "nodeaccess_userreference"
-projects[] = "nodeauthor"
-projects[] = "nodehierarchy"
-projects[] = "nodequeue"
-projects[] = "og"
-projects[] = "panels"
-projects[] = "path_redirect"
-projects[] = "pathauto"
-projects[] = "pathologic"
-projects[] = "publishcontent"
-projects[] = "quicktabs"
-projects[] = "revision_deletion"
-projects[] = "rules"
-projects[] = "site_map"
-projects[] = "stringoverrides"
-projects[] = "strongarm"
-projects[] = "tagadelic"
-projects[] = "tagadelic_views"
-projects[] = "terms_of_use"
-projects[] = "token"
-projects[] = "unique_field"
-projects[] = "views"
-projects[] = "views_bonus"
-projects[] = "views_customfield"
-projects[] = "views_datasource"
-projects[] = "views_slideshow"
-projects[] = "votingapi"
-projects[] = "web_widgets"
-projects[] = "webform"
-projects[] = "wysiwyg"
-projects[] = "xmlsitemap"
+projects[abuse][subdir] = "contrib"
+projects[views_bulk_operations][subdir] = "contrib"
+projects[admin_menu][subdir] = "contrib"
+projects[advanced_forum][subdir] = "contrib"
+projects[author_pane][subdir] = "contrib"
+projects[auto_nodetitle][subdir] = "contrib"
+projects[autoload][subdir] = "contrib"
+projects[backup_migrate][subdir] = "contrib"
+projects[service_links][subdir] = "contrib"
+projects[better_formats][subdir] = "contrib"
+projects[block_class][subdir] = "contrib"
+projects[ctools][subdir] = "contrib"
+projects[calendar][subdir] = "contrib"
+projects[cck_private_fields][subdir] = "contrib"
+projects[coder][subdir] = "contrib"
+projects[coder_tough_love][subdir] = "contrib"
+projects[colorbox][subdir] = "contrib"
+projects[contact][subdir] = "contrib"
+projects[cck][subdir] = "contrib"
+projects[content_access][subdir] = "contrib"
+projects[content_profile][subdir] = "contrib"
+projects[content_taxonomy][subdir] = "contrib"
+projects[cnr][subdir] = "contrib"
+projects[custom_breadcrumbs][subdir] = "contrib"
+projects[customerror][subdir] = "contrib"
+projects[date][subdir] = "contrib"
+projects[devel][subdir] = "contrib"
+projects[email][subdir] = "contrib"
+projects[emfield][subdir] = "contrib"
+projects[features][subdir] = "contrib"
+projects[feeds][subdir] = "contrib"
+projects[filefield][subdir] = "contrib"
+projects[fivestar][subdir] = "contrib"
+projects[google_analytics][subdir] = "contrib"
+projects[hierarchical_select][subdir] = "contrib"
+projects[image_resize_filter][subdir] = "contrib"
+projects[imageapi][subdir] = "contrib"
+projects[imagecache][subdir] = "contrib"
+projects[imagefield][subdir] = "contrib"
+projects[imce][subdir] = "contrib"
+projects[imce_wysiwyg][subdir] = "contrib"
+projects[insert][subdir] = "contrib"
+projects[itweak_upload][subdir] = "contrib"
+projects[job_scheduler][subdir] = "contrib"
+projects[jquery_ui][subdir] = "contrib"
+projects[jquery_update][subdir] = "contrib"
+projects[link][subdir] = "contrib"
+projects[location][subdir] = "contrib"
+projects[logintoboggan][subdir] = "contrib"
+projects[mail_logger][subdir] = "contrib"
+projects[maxlength][subdir] = "contrib"
+projects[media_vimeo][subdir] = "contrib"
+projects[media_youtube][subdir] = "contrib"
+projects[menu_block][subdir] = "contrib"
+projects[mimemail][subdir] = "contrib"
+projects[multicolumncheckboxesradios][subdir] = "contrib"
+projects[node_limitnumber][subdir] = "contrib"
+projects[nodeaccess_userreference][subdir] = "contrib"
+projects[nodeauthor][subdir] = "contrib"
+projects[nodehierarchy][subdir] = "contrib"
+projects[nodequeue][subdir] = "contrib"
+projects[og][subdir] = "contrib"
+projects[panels][subdir] = "contrib"
+projects[path_redirect][subdir] = "contrib"
+projects[pathauto][subdir] = "contrib"
+projects[pathologic][subdir] = "contrib"
+projects[publishcontent][subdir] = "contrib"
+projects[quicktabs][subdir] = "contrib"
+projects[revision_deletion][subdir] = "contrib"
+projects[rules][subdir] = "contrib"
+projects[site_map][subdir] = "contrib"
+projects[stringoverrides][subdir] = "contrib"
+projects[strongarm][subdir] = "contrib"
+projects[tagadelic][subdir] = "contrib"
+projects[tagadelic_views][subdir] = "contrib"
+projects[terms_of_use][subdir] = "contrib"
+projects[token][subdir] = "contrib"
+projects[unique_field][subdir] = "contrib"
+projects[views][subdir] = "contrib"
+projects[views_bonus][subdir] = "contrib"
+projects[views_customfield][subdir] = "contrib"
+projects[views_datasource][subdir] = "contrib"
+projects[views_slideshow][subdir] = "contrib"
+projects[votingapi][subdir] = "contrib"
+projects[web_widgets][subdir] = "contrib"
+projects[webform][subdir] = "contrib"
+projects[wysiwyg][subdir] = "contrib"
+projects[xmlsitemap][subdir] = "contrib"
+
 
 
 ; Custom modules
+; Please fill the following out. Type may be one of get, cvs, git, bzr or svn,
+; and url is the url of the download.
+projects[TTtriggers][download][type] = ""
+projects[TTtriggers][download][url] = ""
+projects[TTtriggers][type] = "module"
+
+; Please fill the following out. Type may be one of get, cvs, git, bzr or svn,
+; and url is the url of the download.
+projects[ijk_plugins][download][type] = ""
+projects[ijk_plugins][download][url] = ""
+projects[ijk_plugins][type] = "module"
+
+; Please fill the following out. Type may be one of get, cvs, git, bzr or svn,
+; and url is the url of the download.
+projects[transition_extras][download][type] = ""
+projects[transition_extras][download][url] = ""
+projects[transition_extras][type] = "module"
+
+; Please fill the following out. Type may be one of get, cvs, git, bzr or svn,
+; and url is the url of the download.
+projects[transition_project_massage][download][type] = ""
+projects[transition_project_massage][download][url] = ""
+projects[transition_project_massage][type] = "module"
+
+; Please fill the following out. Type may be one of get, cvs, git, bzr or svn,
+; and url is the url of the download.
+projects[transition_pse][download][type] = ""
+projects[transition_pse][download][url] = ""
+projects[transition_pse][type] = "module"
+
+; Please fill the following out. Type may be one of get, cvs, git, bzr or svn,
+; and url is the url of the download.
+projects[transition_sharing_engine_client][download][type] = ""
+projects[transition_sharing_engine_client][download][url] = ""
+projects[transition_sharing_engine_client][type] = "module"
+
+; Please fill the following out. Type may be one of get, cvs, git, bzr or svn,
+; and url is the url of the download.
+projects[transition_site_network][download][type] = ""
+projects[transition_site_network][download][url] = ""
+projects[transition_site_network][type] = "module"
+
+
+; Features
+; Please fill the following out. Type may be one of get, cvs, git, bzr or svn,
+; and url is the url of the download.
+projects[transition_alert_web_contacts][download][type] = ""
+projects[transition_alert_web_contacts][download][url] = ""
+projects[transition_alert_web_contacts][type] = "module"
+projects[transition_alert_web_contacts][subdir] = "sites/all/modules/custom/features/transition_alert_web_contacts"
+
 ; Please fill the following out. Type may be one of get, cvs, git, bzr or svn,
 ; and url is the url of the download.
 projects[transition_pse_widget][download][type] = ""
@@ -125,22 +177,12 @@ projects[transition_pse_widget][download][url] = ""
 projects[transition_pse_widget][type] = "module"
 projects[transition_pse_widget][subdir] = "sites/all/modules/custom/features/transition_pse_widget"
 
-
-
-; Features
 ; Please fill the following out. Type may be one of get, cvs, git, bzr or svn,
 ; and url is the url of the download.
 projects[initiatives_directory][download][type] = ""
 projects[initiatives_directory][download][url] = ""
 projects[initiatives_directory][type] = "module"
 projects[initiatives_directory][subdir] = "sites/all/modules/custom/features/initiatives_directory"
-
-; Please fill the following out. Type may be one of get, cvs, git, bzr or svn,
-; and url is the url of the download.
-projects[transition_alert_web_contacts][download][type] = ""
-projects[transition_alert_web_contacts][download][url] = ""
-projects[transition_alert_web_contacts][type] = "module"
-projects[transition_alert_web_contacts][subdir] = "sites/all/modules/custom/features/transition_alert_web_contacts"
 
 ; Please fill the following out. Type may be one of get, cvs, git, bzr or svn,
 ; and url is the url of the download.
@@ -191,62 +233,6 @@ projects[transition_themes][download][type] = ""
 projects[transition_themes][download][url] = ""
 projects[transition_themes][type] = "module"
 projects[transition_themes][subdir] = "sites/all/modules/custom/features/transition_themes"
-
-
-; Modules
-; Please fill the following out. Type may be one of get, cvs, git, bzr or svn,
-; and url is the url of the download.
-projects[TTtriggers][download][type] = ""
-projects[TTtriggers][download][url] = ""
-projects[TTtriggers][type] = "module"
-
-; Please fill the following out. Type may be one of get, cvs, git, bzr or svn,
-; and url is the url of the download.
-projects[cookie_cache_bypass][download][type] = ""
-projects[cookie_cache_bypass][download][url] = ""
-projects[cookie_cache_bypass][type] = "module"
-
-; Please fill the following out. Type may be one of get, cvs, git, bzr or svn,
-; and url is the url of the download.
-projects[ijk_plugins][download][type] = ""
-projects[ijk_plugins][download][url] = ""
-projects[ijk_plugins][type] = "module"
-
-; Please fill the following out. Type may be one of get, cvs, git, bzr or svn,
-; and url is the url of the download.
-projects[path_alias_cache][download][type] = ""
-projects[path_alias_cache][download][url] = ""
-projects[path_alias_cache][type] = "module"
-
-; Please fill the following out. Type may be one of get, cvs, git, bzr or svn,
-; and url is the url of the download.
-projects[transition_extras][download][type] = ""
-projects[transition_extras][download][url] = ""
-projects[transition_extras][type] = "module"
-
-; Please fill the following out. Type may be one of get, cvs, git, bzr or svn,
-; and url is the url of the download.
-projects[transition_project_massage][download][type] = ""
-projects[transition_project_massage][download][url] = ""
-projects[transition_project_massage][type] = "module"
-
-; Please fill the following out. Type may be one of get, cvs, git, bzr or svn,
-; and url is the url of the download.
-projects[transition_pse][download][type] = ""
-projects[transition_pse][download][url] = ""
-projects[transition_pse][type] = "module"
-
-; Please fill the following out. Type may be one of get, cvs, git, bzr or svn,
-; and url is the url of the download.
-projects[transition_sharing_engine_client][download][type] = ""
-projects[transition_sharing_engine_client][download][url] = ""
-projects[transition_sharing_engine_client][type] = "module"
-
-; Please fill the following out. Type may be one of get, cvs, git, bzr or svn,
-; and url is the url of the download.
-projects[transition_site_network][download][type] = ""
-projects[transition_site_network][download][url] = ""
-projects[transition_site_network][type] = "module"
 
 
 
