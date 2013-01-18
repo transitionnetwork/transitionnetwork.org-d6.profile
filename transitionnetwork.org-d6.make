@@ -2,7 +2,9 @@
 core = 6.x
 api = 2
 
-; Latest Pressflow from Omega8cc
+
+
+; Drupal core - Latest Pressflow from Omega8cc
 projects[pressflow][type] = "core"
 projects[pressflow][download][type] = "git"
 projects[pressflow][download][url] = "git://github.com/omega8cc/pressflow6.git"
@@ -10,8 +12,8 @@ projects[pressflow][download][branch] = "master"
 
 
 
-; Contrib Modules - versions & patched
-; -- set for specific version or patched.
+; Modules - Contrib with versions or patched
+; -- set for specific version and/or patched.
 ; -- revisit these occasionally and try to upgrade or use standard versions
 
 projects[context][subdir] = "contrib"
@@ -29,7 +31,7 @@ projects[recaptcha][version] = "1.x-dev"
 
 
   
-; Contrib  Modules
+; Modules - Contrib
 projects[abuse][subdir] = "contrib"
 projects[views_bulk_operations][subdir] = "contrib"
 projects[admin_menu][subdir] = "contrib"
@@ -106,7 +108,7 @@ projects[publishcontent][subdir] = "contrib"
 projects[quicktabs][subdir] = "contrib"
 projects[revision_deletion][subdir] = "contrib"
 projects[rules][subdir] = "contrib"
-projects[sesson443][subdir] = "contrib"
+projects[session443][subdir] = "contrib"
 projects[site_map][subdir] = "contrib"
 projects[stringoverrides][subdir] = "contrib"
 projects[strongarm][subdir] = "contrib"
@@ -127,7 +129,8 @@ projects[wysiwyg][subdir] = "contrib"
 projects[xmlsitemap][subdir] = "contrib"
 
 
-; Custom modules
+
+; Modules - Custom
 projects[ijk_plugins][type] = "module"
 projects[ijk_plugins][download][type] = "git"
 projects[ijk_plugins][download][url] = "git://github.com/i-jk/ijk_plugins.git"
@@ -223,9 +226,12 @@ projects[transition_themes][subdir] = "features"
 
 
 
-; Contrib Themes
+; Themes - Contrib
 projects[] = "rootcandy"
 
+
+
+; Themes - Custom 
 projects[pse][type] = "theme"
 projects[pse][download][type] = "git"
 projects[pse][download][url] = "git://github.com/transitionnetwork/pse.git"
@@ -240,3 +246,18 @@ projects[transitioncms][type] = "theme"
 projects[transitioncms][download][type] = "git"
 projects[transitioncms][download][url] = "git://github.com/transitionnetwork/transitioncms.git"
 projects[transitioncms][download][branch] = "master"
+
+
+
+; Libraries
+libraries[tinymce][download][type] = "git"
+libraries[tinymce][download][url] = "git://github.com/tinymce/tinymce.git"
+libraries[tinymce][download][branch] = "master"
+
+libraries[jquery.cycle][download][type] = "git"
+libraries[jquery.cycle][download][url] = "git://github.com/malsup/cycle.git"
+libraries[jquery.cycle][download][branch] = "master"
+
+libraries[colorbox][download][type] = "git"
+libraries[colorbox][download][url] = "git://github.com/jackmoore/colorbox.git"
+libraries[colorbox][download][branch] = "master"
