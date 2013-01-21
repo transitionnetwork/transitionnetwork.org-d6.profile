@@ -43,7 +43,7 @@ projects[publishcontent][version] = "1.x-dev"
 
 ; nodehierarchy -- 2.x runs out of memory, don't upgrade without establishing cause
 projects[nodehierarchy][subdir] = "contrib"
-projects[nodehierarchy][version] = "6.x-1.5"
+projects[nodehierarchy][version] = "1.5"
 
 ; notifications -- using newer dev version that fixes some SERIOUS bugs
 projects[notifications][subdir] = "contrib"
@@ -260,7 +260,7 @@ projects[transition_themes][subdir] = "features"
 
 
 ; Themes - Contrib
-projects[] = "rootcandy"
+projects[rootcandy][type] = "theme"
 
 
 
