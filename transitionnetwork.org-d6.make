@@ -15,29 +15,69 @@ projects[pressflow][download][branch] = "master"
 ; Modules - Contrib with versions or patched
 ; -- set for specific version and/or patched.
 ; -- revisit these occasionally and try to upgrade or use standard versions
+; -- please always describe why these are needed, and link to any bugs on drupal.org
 
+; admin_menu -- using newer dev version that fixes some bugs
+projects[admin_menu][subdir] = "contrib"
+projects[admin_menu][version] = "1.x-dev"
+
+; context -- staying 2.1 until we can manage 3.x update, so much changed
 projects[context][subdir] = "contrib"
 projects[context][version] = "2.1"
 
-; TODO patch! TN has some overrides/improvements in gmap
+; custom_breadcrumbs -- using newer dev version that fixes some bugs
+projects[custom_breadcrumbs][subdir] = "contrib"
+projects[custom_breadcrumbs][version] = "2.x-dev"
+
+; gmap -- TODO patch! TN has some overrides/improvements in gmap
 projects[gmap][subdir] = "contrib"
 projects[gmap][version] = "1.x-dev"
 
+; messaging -- using dev version that is much better, fixes bugs
+projects[messaging][subdir] = "contrib"
+projects[messaging][version] = "4.x-dev"
+
+; publishcontent -- using newer dev version that fixes some bugs
+projects[publishcontent][subdir] = "contrib"
+projects[publishcontent][version] = "1.x-dev"
+
+; nodehierarchy -- 2.x runs out of memory, don't upgrade without establishing cause
+projects[nodehierarchy][subdir] = "contrib"
+projects[nodehierarchy][version] = "6.x-1.5"
+
+; notifications -- using newer dev version that fixes some SERIOUS bugs
 projects[notifications][subdir] = "contrib"
 projects[notifications][version] = "4.x-dev"
 
+; path_redirect -- using newer dev version that fixes some bugs
+projects[path_redirect][subdir] = "contrib"
+projects[path_redirect][version] = "1.x-dev"
+
+; path_redirect -- using newer dev version that fixes some bugs
+projects[pathologic][subdir] = "contrib"
+projects[pathologic][version] = "1.x-dev"
+
+; recaptcha -- using newer dev version that fixes some bugs around SSL
 projects[recaptcha][subdir] = "contrib"
 projects[recaptcha][version] = "1.x-dev"
 
-projects[messaging][subdir] = "contrib"
-projects[messaging][version] = "4.x-dev"
+; tagadelic_views -- using newer dev version that fixes some bugs
+projects[tagadelic_views][subdir] = "contrib"
+projects[tagadelic_views][version] = "1.x-dev"
+
+; views_datasource -- using newer dev version that fixes the data output
+projects[views_datasource][subdir] = "contrib"
+projects[views_datasource][version] = "1.x-dev"
+
+; votingapi -- using newer dev version that has better views integration
+projects[votingapi][subdir] = "contrib"
+projects[votingapi][version] = "2.x-dev"
 
 
 
 ; Modules - Contrib
 projects[abuse][subdir] = "contrib"
 projects[views_bulk_operations][subdir] = "contrib"
-projects[admin_menu][subdir] = "contrib"
 projects[advanced_forum][subdir] = "contrib"
 projects[author_pane][subdir] = "contrib"
 projects[auto_nodetitle][subdir] = "contrib"
@@ -59,7 +99,6 @@ projects[content_access][subdir] = "contrib"
 projects[content_profile][subdir] = "contrib"
 projects[content_taxonomy][subdir] = "contrib"
 projects[cnr][subdir] = "contrib"
-projects[custom_breadcrumbs][subdir] = "contrib"
 projects[customerror][subdir] = "contrib"
 projects[date][subdir] = "contrib"
 projects[devel][subdir] = "contrib"
@@ -90,7 +129,6 @@ projects[mailchimp][subdir] = "contrib"
 projects[maxlength][subdir] = "contrib"
 projects[media_vimeo][subdir] = "contrib"
 projects[media_youtube][subdir] = "contrib"
-projects[memcache][subdir] = "contrib"
 projects[menu_block][subdir] = "contrib"
 projects[mimemail][subdir] = "contrib"
 projects[mollom][subdir] = "contrib"
@@ -98,15 +136,11 @@ projects[multicolumncheckboxesradios][subdir] = "contrib"
 projects[node_limitnumber][subdir] = "contrib"
 projects[nodeaccess_userreference][subdir] = "contrib"
 projects[nodeauthor][subdir] = "contrib"
-projects[nodehierarchy][subdir] = "contrib"
 projects[nodequeue][subdir] = "contrib"
 projects[og][subdir] = "contrib"
 projects[panels][subdir] = "contrib"
-projects[path_redirect][subdir] = "contrib"
 projects[pathauto][subdir] = "contrib"
-projects[pathologic][subdir] = "contrib"
 projects[piwik][subdir] = "contrib"
-projects[publishcontent][subdir] = "contrib"
 projects[quicktabs][subdir] = "contrib"
 projects[revision_deletion][subdir] = "contrib"
 projects[rules][subdir] = "contrib"
@@ -115,16 +149,13 @@ projects[site_map][subdir] = "contrib"
 projects[stringoverrides][subdir] = "contrib"
 projects[strongarm][subdir] = "contrib"
 projects[tagadelic][subdir] = "contrib"
-projects[tagadelic_views][subdir] = "contrib"
 projects[terms_of_use][subdir] = "contrib"
 projects[token][subdir] = "contrib"
 projects[unique_field][subdir] = "contrib"
 projects[views][subdir] = "contrib"
 projects[views_bonus][subdir] = "contrib"
 projects[views_customfield][subdir] = "contrib"
-projects[views_datasource][subdir] = "contrib"
 projects[views_slideshow][subdir] = "contrib"
-projects[votingapi][subdir] = "contrib"
 projects[web_widgets][subdir] = "contrib"
 projects[webform][subdir] = "contrib"
 projects[wysiwyg][subdir] = "contrib"
