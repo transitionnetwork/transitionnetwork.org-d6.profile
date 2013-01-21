@@ -32,8 +32,7 @@ projects[recaptcha][version] = "1.x-dev"
 projects[messaging][subdir] = "contrib"
 projects[messaging][version] = "4.x-dev"
 
-
-
+  
 ; Modules - Contrib
 projects[abuse][subdir] = "contrib"
 projects[views_bulk_operations][subdir] = "contrib"
