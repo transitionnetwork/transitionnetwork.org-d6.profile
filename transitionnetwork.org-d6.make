@@ -63,9 +63,9 @@ projects[notifications][version] = "4.x-dev"
 projects[path_redirect][subdir] = "contrib"
 projects[path_redirect][version] = "1.x-dev"
 
-; path_redirect -- using newer dev version that fixes some bugs
+; pathologic -- using newer dev version that fixes some bugs
 projects[pathologic][subdir] = "contrib"
-projects[pathologic][version] = "1.x-dev"
+projects[pathologic][version] = "3.x-dev"
 
 ; recaptcha -- using newer dev version that fixes some bugs around SSL
 projects[recaptcha][subdir] = "contrib"
