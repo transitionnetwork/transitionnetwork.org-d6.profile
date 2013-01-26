@@ -31,9 +31,8 @@ projects[context][version] = "2.1"
 
 ; ctools -- dev fixes ctools preg_match() error: http://drupal.org/node/1444006#comment-6362100
 projects[ctools][subdir] = "contrib"
-projects[context][version] = "1.10"
-projects[context][patch][1444006] = "http://drupal.org/files/ctools-1444006-disallowed-unicode-code-point-18.patch"
-
+projects[ctools][version] = "1.10"
+projects[ctools][patch][1444006] = "http://drupal.org/files/ctools-1444006-disallowed-unicode-code-point-18.patch"
 
 ; custom_breadcrumbs -- using newer dev version that fixes some bugs
 projects[custom_breadcrumbs][subdir] = "contrib"
@@ -159,6 +158,7 @@ projects[tagadelic][subdir] = "contrib"
 projects[terms_of_use][subdir] = "contrib"
 projects[token][subdir] = "contrib"
 projects[unique_field][subdir] = "contrib"
+projects[update_advanced][subdir] = "contrib"
 projects[views][subdir] = "contrib"
 projects[views_bonus][subdir] = "contrib"
 projects[views_customfield][subdir] = "contrib"
