@@ -74,9 +74,17 @@ projects[recaptcha][version] = "1.x-dev"
 projects[tagadelic_views][subdir] = "contrib"
 projects[tagadelic_views][version] = "1.x-dev"
 
+; views -- 2.x updates ok, but managing change to 3.x needs care
+projects[views][subdir] = "contrib"
+projects[views][version] = "2.16"
+
 ; views_datasource -- using newer dev version that fixes the data output
 projects[views_datasource][subdir] = "contrib"
 projects[views_datasource][version] = "1.x-dev"
+
+; views_slideshow -- 2.x needs views 2, 3.x needs 3.x so keep to views version
+projects[views_slideshow][subdir] = "contrib"
+projects[views_slideshow][version] = "2.16"
 
 ; votingapi -- using newer dev version that has better views integration
 projects[votingapi][subdir] = "contrib"
@@ -160,10 +168,8 @@ projects[terms_of_use][subdir] = "contrib"
 projects[token][subdir] = "contrib"
 projects[unique_field][subdir] = "contrib"
 projects[update_advanced][subdir] = "contrib"
-projects[views][subdir] = "contrib"
 projects[views_bonus][subdir] = "contrib"
 projects[views_customfield][subdir] = "contrib"
-projects[views_slideshow][subdir] = "contrib"
 projects[web_widgets][subdir] = "contrib"
 projects[webform][subdir] = "contrib"
 projects[wysiwyg][subdir] = "contrib"
