@@ -330,4 +330,4 @@ libraries[jquery.ui][directory_name] = "jquery.ui"
 
 libraries[colorbox][download][type] = "get"
 libraries[colorbox][download][url] = "http://www.jacklmoore.com/colorbox/colorbox-1.3.18.zip"
-libraries[colorbox][directory_name] = "colorbox/colorbox"
+libraries[colorbox][directory_name] = "colorbox"
