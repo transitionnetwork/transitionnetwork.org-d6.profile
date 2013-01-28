@@ -70,6 +70,10 @@ projects[pathologic][version] = "3.x-dev"
 projects[recaptcha][subdir] = "contrib"
 projects[recaptcha][version] = "1.x-dev"
 
+; session443 -- using newer dev version that fixes some bugs around SSL
+projects[session443][subdir] = "contrib"
+projects[session443][version] = "1.x-dev"
+
 ; tagadelic_views -- using newer dev version that fixes some bugs
 projects[tagadelic_views][subdir] = "contrib"
 projects[tagadelic_views][version] = "1.x-dev"
