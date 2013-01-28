@@ -84,7 +84,7 @@ projects[views_datasource][version] = "1.x-dev"
 
 ; views_slideshow -- 2.x needs views 2, 3.x needs 3.x so keep to views version
 projects[views_slideshow][subdir] = "contrib"
-projects[views_slideshow][version] = "2.16"
+projects[views_slideshow][version] = "2.4"
 
 ; votingapi -- using newer dev version that has better views integration
 projects[votingapi][subdir] = "contrib"
