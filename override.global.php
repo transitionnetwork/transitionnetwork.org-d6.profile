@@ -64,12 +64,12 @@ function puffin_server_override_settings_set_environment($environment_name = 'De
       break;
     case 'Testing':
       $conf['reroute_email_enable'] = 1;
-      $conf['environment_indicator_color'] = '#D0E7B4';
+      $conf['environment_indicator_color'] = 'orange';
       $conf['environment_indicator_enabled'] = TRUE;
       break;
     case 'Development':
       $conf['reroute_email_enable'] = 1;
-      $conf['environment_indicator_color'] = '#D0E7B4';
+      $conf['environment_indicator_color'] = 'dark-red';
       $conf['environment_indicator_enabled'] = TRUE;
       break;
   }
