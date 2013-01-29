@@ -74,6 +74,12 @@ projects[recaptcha][version] = "1.x-dev"
 projects[reroute_email][subdir] = "contrib"
 projects[reroute_email][version] = "1.x-dev"
 
+; robotstxt -- allows settings.php to set robots.txt
+projects[robotstxt][subdir] = "contrib"
+projects[robotstxt][version] = "1.x-dev"
+projects[robotstxt][patch][619404] = "http://drupal.org/files/issues/619404-robotstxt-D6_2.patch"
+
+
 ; session443 -- using newer dev version that fixes some bugs around SSL
 projects[session443][subdir] = "contrib"
 projects[session443][version] = "1.x-dev"
