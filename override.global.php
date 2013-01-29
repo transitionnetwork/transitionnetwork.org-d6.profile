@@ -18,7 +18,9 @@
  *
  * @see: http://drupal.org/project/session443
  */
-ini_set('session.cookie_secure', 1);
+if (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] != 'off') {
+  ini_set('session.cookie_secure', 1);
+}
 
 /**
  * Reroute Email 6.x-1.x-dev switch means we'll always reroute (if module enabled).
