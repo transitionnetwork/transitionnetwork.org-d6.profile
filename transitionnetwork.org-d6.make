@@ -342,5 +342,5 @@ libraries[jquery.ui][download][url] = "http://jquery-ui.googlecode.com/files/jqu
 libraries[jquery.ui][directory_name] = "jquery.ui"
 
 libraries[colorbox][download][type] = "get"
-libraries[colorbox][download][url] = "http://www.jacklmoore.com/colorbox/colorbox-1.3.18.zip"
+libraries[colorbox][download][url] = "http://drupal.org/files/colorbox-1.3.18.zip"
 libraries[colorbox][directory_name] = "colorbox"
