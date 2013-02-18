@@ -70,10 +70,6 @@ projects[pathologic][version] = "3.x-dev"
 projects[recaptcha][subdir] = "contrib"
 projects[recaptcha][version] = "1.x-dev"
 
-; reroute_email -- using newer dev version that fixes some bugs
-projects[reroute_email][subdir] = "contrib"
-projects[reroute_email][version] = "1.x-dev"
-
 ; robotstxt -- allows settings.php to set robots.txt
 projects[robotstxt][subdir] = "contrib"
 projects[robotstxt][version] = "1.x-dev"
@@ -172,6 +168,7 @@ projects[panels][subdir] = "contrib"
 projects[pathauto][subdir] = "contrib"
 projects[piwik][subdir] = "contrib"
 projects[quicktabs][subdir] = "contrib"
+projects[reroute_email][subdir] = "contrib"
 projects[revision_deletion][subdir] = "contrib"
 projects[rules][subdir] = "contrib"
 projects[schema][subdir] = "contrib"
