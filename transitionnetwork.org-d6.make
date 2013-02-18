@@ -326,9 +326,9 @@ projects[transitioncms][download][branch] = "master"
 
 
 ; Libraries
-libraries[tinymce][download][type] = "git"
-libraries[tinymce][download][url] = "git://github.com/tinymce/tinymce.git"
-libraries[tinymce][download][branch] = "master"
+libraries[tinymce][download][type] = "get"
+libraries[tinymce][download][url] = "http://github.com/downloads/tinymce/tinymce/tinymce_3.4.9.zip"
+libraries[tinymce][directory_name] = "tinymce"
 
 libraries[jquery.cycle][download][type] = "get"
 libraries[jquery.cycle][download][url] = "http://malsup.github.com/jquery.cycle.all.js"
