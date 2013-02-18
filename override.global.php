@@ -51,6 +51,7 @@ $conf['environment_indicator_enabled'] = TRUE;
  * e.g. 'Testing - TN.org commerce'
  */
 function puffin_server_override_settings_set_environment($environment_name = 'Development') {
+  global $conf;
   // use full string for Environment Indicator module label.
   $conf['environment_indicator_text'] = $environment_name;
   // use string before space so we know which environment to choose.
