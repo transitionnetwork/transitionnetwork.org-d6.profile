@@ -311,17 +311,26 @@ projects[rootcandy][type] = "theme"
 
 
 
-; Themes - Custom 
+; Themes - Custom
+; Project Sharing Engine (PSE) widget theme.
 projects[pse][type] = "theme"
 projects[pse][download][type] = "git"
 projects[pse][download][url] = "git://github.com/transitionnetwork/pse.git"
 projects[pse][download][branch] = "master"
 
+; Original (2009-2011) www.transitionnetwork.org main theme.
+projects[transition][type] = "theme"
+projects[transition][download][type] = "git"
+projects[transition][download][url] = "git://github.com/transitionnetwork/transition.git"
+projects[transition][download][branch] = "master"
+
+; Current (2011-) www.transitionnetwork.org main theme.
 projects[transition2][type] = "theme"
 projects[transition2][download][type] = "git"
 projects[transition2][download][url] = "git://github.com/transitionnetwork/transition2.git"
 projects[transition2][download][branch] = "master"
 
+; Commmunity Microsites theme - subtheme of 'transition' theme.
 projects[transitioncms][type] = "theme"
 projects[transitioncms][download][type] = "git"
 projects[transitioncms][download][url] = "git://github.com/transitionnetwork/transitioncms.git"
@@ -330,14 +339,17 @@ projects[transitioncms][download][branch] = "master"
 
 
 ; Libraries
+; TinyMCE WYSIWYG editor
 libraries[tinymce][download][type] = "get"
 libraries[tinymce][download][url] = "http://github.com/downloads/tinymce/tinymce/tinymce_3.4.9.zip"
 libraries[tinymce][directory_name] = "tinymce"
 
+; jQuery Cycle image rotation for www.transitionnetwork.org homepage slideshow
 libraries[jquery.cycle][download][type] = "get"
 libraries[jquery.cycle][download][url] = "http://malsup.github.com/jquery.cycle.all.js"
 libraries[jquery.cycle][directory_name] = "jquery.cycle"
 
+; jQuery UI for some modules to use
 libraries[jquery.ui][download][type] = "get"
 libraries[jquery.ui][download][url] = "http://jquery-ui.googlecode.com/files/jquery.ui-1.6.zip"
 libraries[jquery.ui][directory_name] = "jquery.ui"
