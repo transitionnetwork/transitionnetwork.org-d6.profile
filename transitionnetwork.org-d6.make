@@ -50,6 +50,10 @@ projects[publishcontent][version] = "1.x-dev"
 projects[link][subdir] = "contrib"
 projects[link][version] = "2.x-dev"
 
+; media_youtube -- using newer dev version that fixes a bunch of stuff
+projects[media_youtube][subdir] = "contrib"
+projects[media_youtube][version] = "1.x-dev"
+
 ; nodehierarchy -- 2.x runs out of memory, don't upgrade without establishing cause
 projects[nodehierarchy][subdir] = "contrib"
 projects[nodehierarchy][version] = "1.5"
