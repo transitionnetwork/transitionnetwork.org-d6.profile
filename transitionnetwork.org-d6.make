@@ -43,8 +43,8 @@ projects[messaging][subdir] = "contrib"
 projects[messaging][version] = "4.x-dev"
 
 ; publishcontent -- using newer dev version that fixes some bugs
-projects[publishcontent][subdir] = "contrib"
-projects[publishcontent][version] = "1.x-dev"
+;projects[publishcontent][subdir] = "contrib"
+;projects[publishcontent][version] = "1.x-dev"
 
 ; link -- using newer dev version that has better views integration
 projects[link][subdir] = "contrib"
@@ -177,6 +177,7 @@ projects[og][subdir] = "contrib"
 projects[panels][subdir] = "contrib"
 projects[pathauto][subdir] = "contrib"
 projects[piwik][subdir] = "contrib"
+projects[publishcontent][subdir] = "contrib"
 projects[quicktabs][subdir] = "contrib"
 projects[reroute_email][subdir] = "contrib"
 projects[revision_deletion][subdir] = "contrib"
