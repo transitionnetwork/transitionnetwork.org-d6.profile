@@ -143,6 +143,7 @@ projects[feeds][subdir] = "contrib"
 projects[filefield][subdir] = "contrib"
 projects[fivestar][subdir] = "contrib"
 projects[google_analytics][subdir] = "contrib"
+projects[gmap][subdir] = "contrib"
 projects[hierarchical_select][subdir] = "contrib"
 projects[image_resize_filter][subdir] = "contrib"
 projects[imageapi][subdir] = "contrib"
@@ -206,11 +207,11 @@ custom
 
 ; Modules - Custom
 ; gmap -- TN version has some overrides/improvements from original
-projects[gmap][type] = "module"
-projects[gmap][download][type] = "git"
-projects[gmap][download][url] = "git://github.com/transitionnetwork/gmap.git"
-projects[gmap][download][branch] = "master"
-projects[gmap][subdir] = "custom"
+;projects[gmap][type] = "module"
+;projects[gmap][download][type] = "git"
+;projects[gmap][download][url] = "git://github.com/transitionnetwork/gmap.git"
+;projects[gmap][download][branch] = "master"
+;projects[gmap][subdir] = "custom"
 
 projects[ijk_plugins][type] = "module"
 projects[ijk_plugins][download][type] = "git"
