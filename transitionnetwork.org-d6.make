@@ -42,6 +42,11 @@ projects[custom_breadcrumbs][version] = "2.x-dev"
 projects[messaging][subdir] = "contrib"
 projects[messaging][version] = "4.x-dev"
 
+; pathauto -- using 2.x-dev branch to avoid schema issues (it was updated to 2.0 at one point)
+projects[pathauto][subdir] = "contrib"
+projects[messaging][version] = "2.x-dev"
+
+
 ; publishcontent -- using newer dev version that fixes some bugs
 ;projects[publishcontent][subdir] = "contrib"
 ;projects[publishcontent][version] = "1.x-dev"
@@ -175,7 +180,6 @@ projects[nodeauthor][subdir] = "contrib"
 projects[nodequeue][subdir] = "contrib"
 projects[og][subdir] = "contrib"
 projects[panels][subdir] = "contrib"
-projects[pathauto][subdir] = "contrib"
 projects[piwik][subdir] = "contrib"
 projects[publishcontent][subdir] = "contrib"
 projects[quicktabs][subdir] = "contrib"
