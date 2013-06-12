@@ -38,6 +38,10 @@ projects[ctools][patch][1444006] = "http://drupal.org/files/ctools-1444006-disal
 projects[custom_breadcrumbs][subdir] = "contrib"
 projects[custom_breadcrumbs][version] = "2.x-dev"
 
+; gmap - 2.x branch not stable yet, stick with 1.x-dev
+projects[gmap][subdir] = "contrib"
+projects[gmap][version] = "1.x-dev"
+
 ; messaging -- using dev version that is much better, fixes bugs
 projects[messaging][subdir] = "contrib"
 projects[messaging][version] = "4.x-dev"
@@ -143,7 +147,6 @@ projects[feeds][subdir] = "contrib"
 projects[filefield][subdir] = "contrib"
 projects[fivestar][subdir] = "contrib"
 projects[google_analytics][subdir] = "contrib"
-projects[gmap][subdir] = "contrib"
 projects[hierarchical_select][subdir] = "contrib"
 projects[image_resize_filter][subdir] = "contrib"
 projects[imageapi][subdir] = "contrib"
