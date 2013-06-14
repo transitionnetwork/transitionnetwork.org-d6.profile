@@ -223,6 +223,12 @@ projects[ijk_plugins][download][url] = "git://github.com/i-jk/ijk_plugins.git"
 projects[ijk_plugins][download][branch] = "master"
 projects[ijk_plugins][subdir] = "custom"
 
+projects[tn_user_notifications_feeds][type] = "module"
+projects[tn_user_notifications_feeds][download][type] = "git"
+projects[tn_user_notifications_feeds][download][url] = "git://github.com/transitionnetwork/tn_user_notifications_feeds.git"
+projects[tn_user_notifications_feeds][download][branch] = "master"
+projects[tn_user_notifications_feeds][subdir] = "custom"
+
 projects[transition_extras][type] = "module"
 projects[transition_extras][download][type] = "git"
 projects[transition_extras][download][url] = "git://github.com/transitionnetwork/transition_extras.git"
