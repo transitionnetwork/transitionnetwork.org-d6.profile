@@ -99,6 +99,10 @@ projects[views][version] = "2.16"
 projects[views_datasource][subdir] = "contrib"
 projects[views_datasource][version] = "1.x-dev"
 
+; views_litepager -- need 2.x branch to match views version.
+projects[views_litepager][subdir] = "contrib"
+projects[views_litepager][version] = "2.x-dev"
+
 ; views_php -- Use DEV version
 projects[views_php][subdir] = "contrib"
 projects[views_php][version] = "1.x-dev"
