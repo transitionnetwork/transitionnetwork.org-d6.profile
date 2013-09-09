@@ -13,7 +13,7 @@
  
 /* ---------- PERFORMANCE ---------- */
 /**
- * Detect requests for '*/feed' urls on HTTPS, redirect to HTTP.
+ * Detect requests for feed urls on HTTPS, redirect to HTTP.
  */
 if ($conf['https'] && preg_match("/\/feed$|^\/blogs\/feed\/.*$/", $_SERVER['REQUEST_URI'])) {
     header("HTTP/1.1 301 Moved Permanently");
