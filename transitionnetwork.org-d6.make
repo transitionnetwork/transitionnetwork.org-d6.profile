@@ -19,7 +19,7 @@ projects[pressflow][download][branch] = "master"
 
 ; admin_menu -- using newer dev version that fixes some bugs
 projects[admin_menu][subdir] = "contrib"
-projects[admin_menu][version] = "1.x-dev"
+projects[admin_menu][version] = "3.x-dev"
 
 ; content_profile -- dev fixes fatal class not found: drupal.org/node/375682
 projects[content_profile][subdir] = "contrib"
@@ -118,6 +118,7 @@ projects[votingapi][version] = "2.x-dev"
 
 
 ; Modules - Contrib
+projects[advagg][subdir] = "contrib"
 projects[abuse][subdir] = "contrib"
 projects[views_bulk_operations][subdir] = "contrib"
 projects[advanced_forum][subdir] = "contrib"
@@ -135,6 +136,7 @@ projects[cck_private_fields][subdir] = "contrib"
 projects[coder][subdir] = "contrib"
 projects[coder_tough_love][subdir] = "contrib"
 projects[colorbox][subdir] = "contrib"
+projects[comment_notify][subdir] = "contrib"
 projects[contact][subdir] = "contrib"
 projects[content_access][subdir] = "contrib"
 projects[content_taxonomy][subdir] = "contrib"
