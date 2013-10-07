@@ -13,14 +13,17 @@
  
 /* ---------- PERFORMANCE ---------- */
 /**
- * Detect requests for feed urls on HTTPS, redirect to HTTP.
+ * Detect requests for feed urls and force long Redis and Speedcache cache times.
  */
-if ($conf['https'] && preg_match("/\/feed$|^\/blogs\/feed\/.*$/", $_SERVER['REQUEST_URI'])) {
-    header("HTTP/1.1 301 Moved Permanently");
-    // Send user to same URL on HTTP.
-    header("Location: " . str_replace('https://', 'http://', $base_url) . $_SERVER['REQUEST_URI']);
+if (preg_match("/\/feed$|^\/blogs\/feed\/.*$/", $_SERVER['REQUEST_URI'])) {
+  // Set all caches on, and to 3 hours expiry (belt and braces -- might be overkill!).
+  $expire_in_seconds = '10800';
+  $use_cache = TRUE;
+  $use_redis = TRUE;
+  header('X-Force-Redis: YES');
+  header('X-Limit-Booster: ' . $expire_in_seconds);
+  header('X-Accel-Expires: ' . $expire_in_seconds);
 }
-
 
 /* ------------ DEFAULTS ------------ */
 
