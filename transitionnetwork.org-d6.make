@@ -60,6 +60,13 @@ projects[location][subdir] = "contrib"
 projects[location][version] = "3.x-dev"
 projects[location][patch][635958] = "http://drupal.org/files/france_provinces_complete-635958-24.patch"
 
+; logintoboggan -- use dev plus our patch for better MySQL performance
+; see:- https://tech.transitionnetwork.org/trac/ticket/590#comment:1
+;     - https://tech.transitionnetwork.org/trac/ticket/582#comment:7
+projects[logintoboggan][subdir] = "contrib"
+projects[logintoboggan][version] = "3.x-dev"
+projects[logintoboggan][patch][tn02] = "https://raw.github.com/transitionnetwork/transitionnetwork.org-d6.profile/master/patches/logintoboggan_performance_mysql.patch"
+
 ; media_youtube -- using newer dev version that fixes a bunch of stuff
 projects[media_youtube][subdir] = "contrib"
 projects[media_youtube][version] = "1.x-dev"
@@ -177,7 +184,6 @@ projects[jquery_ui][subdir] = "contrib"
 projects[jquery_update][subdir] = "contrib"
 projects[libraries][subdir] = "contrib"
 projects[location_feeds][subdir] = "contrib"
-projects[logintoboggan][subdir] = "contrib"
 projects[mail_logger][subdir] = "contrib"
 projects[mailchimp][subdir] = "contrib"
 projects[maxlength][subdir] = "contrib"
