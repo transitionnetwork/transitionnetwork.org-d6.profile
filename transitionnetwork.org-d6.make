@@ -55,6 +55,11 @@ projects[messaging][version] = "4.x-dev"
 projects[link][subdir] = "contrib"
 projects[link][version] = "2.x-dev"
 
+; location -- latest dev plus patch for French departments - https://drupal.org/node/635958
+projects[location][subdir] = "contrib"
+projects[location][version] = "3.x-dev"
+projects[location][patch][635958] = "http://drupal.org/files/france_provinces_complete-635958-24.patch"
+
 ; media_youtube -- using newer dev version that fixes a bunch of stuff
 projects[media_youtube][subdir] = "contrib"
 projects[media_youtube][version] = "1.x-dev"
@@ -98,7 +103,6 @@ projects[views][version] = "2.16"
 ; views_content_cache -- Use dev version as it's got some big improvements
 projects[views_content_cache][subdir] = "contrib"
 projects[views_content_cache][version] = "2.x-dev"
-
 
 ; views_datasource -- using newer dev version that fixes the data output
 projects[views_datasource][subdir] = "contrib"
@@ -172,7 +176,6 @@ projects[job_scheduler][subdir] = "contrib"
 projects[jquery_ui][subdir] = "contrib"
 projects[jquery_update][subdir] = "contrib"
 projects[libraries][subdir] = "contrib"
-projects[location][subdir] = "contrib"
 projects[location_feeds][subdir] = "contrib"
 projects[logintoboggan][subdir] = "contrib"
 projects[mail_logger][subdir] = "contrib"
