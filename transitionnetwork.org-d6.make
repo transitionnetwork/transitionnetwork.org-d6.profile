@@ -95,6 +95,11 @@ projects[tagadelic_views][version] = "1.x-dev"
 projects[views][subdir] = "contrib"
 projects[views][version] = "2.16"
 
+; views_content_cache -- Use dev version as it's got some big improvements
+projects[views_content_cache][subdir] = "contrib"
+projects[views_content_cache][version] = "2.x-dev"
+
+
 ; views_datasource -- using newer dev version that fixes the data output
 projects[views_datasource][subdir] = "contrib"
 projects[views_datasource][version] = "1.x-dev"
