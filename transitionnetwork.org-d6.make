@@ -27,7 +27,7 @@ projects[content_profile][version] = "1.x-dev"
 
 ; context -- staying 2.1 until we can manage 3.x update, so much has changed
 projects[context][subdir] = "contrib"
-projects[context][version] = "2.1"
+projects[context][version] = "2.x-dev"
 projects[context][patch][tn01] = "https://raw.github.com/transitionnetwork/transitionnetwork.org-d6.profile/master/patches/context-blockcache-alter-enable.patch"
 
 ; ctools -- dev fixes ctools preg_match() error: http://drupal.org/node/1444006#comment-6362100
