@@ -190,7 +190,6 @@ projects[mollom][subdir] = "contrib"
 projects[moopapi][subdir] = "contrib"
 projects[multicolumncheckboxesradios][subdir] = "contrib"
 projects[node_limitnumber][subdir] = "contrib"
-projects[node_term_count][subdir] = "contrib"
 projects[nodeaccess_userreference][subdir] = "contrib"
 projects[nodeauthor][subdir] = "contrib"
 projects[nodequeue][subdir] = "contrib"
@@ -210,6 +209,7 @@ projects[spambot][subdir] = "contrib"
 projects[stringoverrides][subdir] = "contrib"
 projects[strongarm][subdir] = "contrib"
 projects[tagadelic][subdir] = "contrib"
+projects[term_node_count][subdir] = "contrib"
 projects[terms_of_use][subdir] = "contrib"
 projects[token][subdir] = "contrib"
 projects[unique_field][subdir] = "contrib"
@@ -223,7 +223,7 @@ projects[wysiwyg][subdir] = "contrib"
 projects[xmlsitemap][subdir] = "contrib"
 
 
-custom
+
 
 
 
