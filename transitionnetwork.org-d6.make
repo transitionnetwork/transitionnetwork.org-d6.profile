@@ -60,7 +60,7 @@ projects[location][patch][635958] = "http://drupal.org/files/france_provinces_co
 ; see:- https://tech.transitionnetwork.org/trac/ticket/590#comment:1
 ;     - https://tech.transitionnetwork.org/trac/ticket/582#comment:7
 projects[logintoboggan][subdir] = "contrib"
-projects[logintoboggan][version] = "3.x-dev"
+projects[logintoboggan][version] = "1.x-dev"
 projects[logintoboggan][patch][tn02] = "https://raw.github.com/transitionnetwork/transitionnetwork.org-d6.profile/master/patches/logintoboggan_performance_mysql.patch"
 
 ; media_youtube -- using newer dev version that fixes a bunch of stuff
