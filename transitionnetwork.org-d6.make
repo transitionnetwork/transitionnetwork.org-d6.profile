@@ -259,12 +259,6 @@ projects[transition_project_massage][download][url] = "git://github.com/transiti
 projects[transition_project_massage][download][branch] = "master"
 projects[transition_project_massage][subdir] = "custom"
 
-projects[transition_pse][type] = "module"
-projects[transition_pse][download][type] = "git"
-projects[transition_pse][download][url] = "git://github.com/transitionnetwork/transition_pse.git"
-projects[transition_pse][download][branch] = "master"
-projects[transition_pse][subdir] = "custom"
-
 projects[transition_sharing_engine][type] = "module"
 projects[transition_sharing_engine][download][type] = "git"
 projects[transition_sharing_engine][download][url] = "git://github.com/transitionnetwork/transition_sharing_engine.git"
@@ -285,12 +279,6 @@ projects[transition_alert_web_contacts][download][type] = "git"
 projects[transition_alert_web_contacts][download][url] = "git://github.com/transitionnetwork/transition_alert_web_contacts.git"
 projects[transition_alert_web_contacts][download][branch] = "master"
 projects[transition_alert_web_contacts][subdir] = "features"
-
-projects[transition_pse_widget][type] = "module"
-projects[transition_pse_widget][download][type] = "git"
-projects[transition_pse_widget][download][url] = "git://github.com/transitionnetwork/transition_pse_widget.git"
-projects[transition_pse_widget][download][branch] = "master"
-projects[transition_pse_widget][subdir] = "features"
 
 projects[initiatives_directory][type] = "module"
 projects[initiatives_directory][download][type] = "git"
@@ -348,13 +336,7 @@ projects[rootcandy][type] = "theme"
 
 
 ; Themes - Custom
-; Project Sharing Engine (PSE) widget theme.
-projects[pse][type] = "theme"
-projects[pse][download][type] = "git"
-projects[pse][download][url] = "git://github.com/transitionnetwork/pse.git"
-projects[pse][download][branch] = "master"
-
-; Original (2009-2011) www.transitionnetwork.org main theme.
+; Original (2009-2011) www.transitionnetwork.org main theme -- still in use in parts!
 projects[transition][type] = "theme"
 projects[transition][download][type] = "git"
 projects[transition][download][url] = "git://github.com/transitionnetwork/transition.git"
