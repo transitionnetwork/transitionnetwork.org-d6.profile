@@ -5,12 +5,11 @@ api = 2
 
 
 ; Drupal core - Latest Pressflow from Omega8cc based on tagged release
+; -- update version based on latest release
+; -- se:; https://github.com/omega8cc/nginx-for-drupal/search?q=pressflow
 projects[pressflow][type] = "core"
-projects[pressflow][download][type] = "git"
-projects[pressflow][download][url] = "git://github.com/omega8cc/pressflow6.git"
-projects[pressflow][download][tag] = "pressflow-plus-6.29.1"
-; projects[pressflow][download][branch] = "master"
-
+projects[pressflow][download][type] = "get"
+projects[pressflow][download][url] = "http://files.aegir.cc/core/pressflow-6.29.1.tar.gz"
 
 
 ; Modules - Contrib with versions or patched
