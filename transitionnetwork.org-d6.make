@@ -4,11 +4,12 @@ api = 2
 
 
 
-; Drupal core - Latest Pressflow from Omega8cc
+; Drupal core - Latest Pressflow from Omega8cc based on tagged release
 projects[pressflow][type] = "core"
 projects[pressflow][download][type] = "git"
 projects[pressflow][download][url] = "git://github.com/omega8cc/pressflow6.git"
-projects[pressflow][download][branch] = "master"
+projects[pressflow][download][tag] = "pressflow-plus-6.29.1"
+; projects[pressflow][download][branch] = "master"
 
 
 
