@@ -39,6 +39,11 @@ projects[ctools][patch][1444006] = "http://drupal.org/files/ctools-1444006-disal
 projects[custom_breadcrumbs][subdir] = "contrib"
 projects[custom_breadcrumbs][version] = "2.x-dev"
 
+; gmap - 6.x-2.x branch now good enough, but we patch for our TN-specific markers
+projects[gmap][subdir] = "contrib"
+projects[gmap][version] = "2.x-dev"
+projects[gmap][patch][tn03] = "https://raw.github.com/transitionnetwork/transitionnetwork.org-d6.profile/master/patches/gmap-tn-markers.patch"
+
 ; messaging -- using dev version that is much better, fixes bugs
 projects[messaging][subdir] = "contrib"
 projects[messaging][version] = "4.x-dev"
@@ -229,11 +234,11 @@ projects[xmlsitemap][subdir] = "contrib"
 
 ; Modules - Custom
 ; gmap -- TN version has some overrides/improvements from original
-projects[gmap][type] = "module"
-projects[gmap][download][type] = "git"
-projects[gmap][download][url] = "git://github.com/transitionnetwork/gmap.git"
-projects[gmap][download][branch] = "master"
-projects[gmap][subdir] = "custom"
+;projects[gmap][type] = "module"
+;projects[gmap][download][type] = "git"
+;projects[gmap][download][url] = "git://github.com/transitionnetwork/gmap.git"
+;projects[gmap][download][branch] = "master"
+;projects[gmap][subdir] = "custom"
 
 projects[ijk_plugins][type] = "module"
 projects[ijk_plugins][download][type] = "git"
