@@ -1,0 +1,176 @@
+diff --git a/markers/transition/event.png b/markers/transition/event.png
+new file mode 100644
+index 0000000000000000000000000000000000000000..41410f9376109b94829215bcdb4933240efb76b7
+GIT binary patch
+literal 217
+zcmeAS@N?(olHy`uVBq!ia0vp^JU}eM!VDz6?;TVEQtAOdA+G=b|DPGd7~$tIYu2pP
+z<OF{^)pz}j_gWeKO$F+G7=fz(&18yq5a{7C-UQ?@mIV0)GdMiEkp|=>c)B=-RK%5@
+zUdY?xAi?^uaZSXoLxD%Eq8J=Ev9%v~U|Fae!!&(@J9Epj2lrV{&hY2m@i>^N`AXyU
+zSpU>5bB>+M$>Bd3ak8h)W?5t4FUHmoX1y#Xj{lcVnCa|S`LVBn@#AT|=o9}gd;!|U
+N;OXk;vd$@?2>=10PelL#
+
+literal 0
+HcmV?d00001
+
+diff --git a/markers/transition/initiative-hub.png b/markers/transition/initiative-hub.png
+new file mode 100644
+index 0000000000000000000000000000000000000000..429ea5803460d0e07358701e6f9ba6f5834d28d5
+GIT binary patch
+literal 210
+zcmeAS@N?(olHy`uVBq!ia0vp^JU}eM!VDz6?;TVEQi=gSA+G=b|JU`__lojP&rDZI
+zP&2=8FCU;JU#|j`xBu^<HcR{EXJbzwhp{BcFPOpM*^M+HC*IS=F{C1{^t2-1Ap-`t
+zhwQ!zFL|rFrOs_QbE#zsU-JP)gW}zXrcHeIe9LWpweM$^%eB0l-8lVAL-)3McYGF_
+zb2n#NpY(AFwg~6{Fzw%g&|S<6UolUpyLqI|`YhWq=CD+D6?dg;FRlWuV(@hJb6Mw<
+G&;$TXcui^m
+
+literal 0
+HcmV?d00001
+
+diff --git a/markers/transition/initiative.png b/markers/transition/initiative.png
+new file mode 100644
+index 0000000000000000000000000000000000000000..eb64560437f8043f7d7254e85a3ebf266dca2820
+GIT binary patch
+literal 208
+zcmeAS@N?(olHy`uVBq!ia0vp^JU}eM!VDz6?;TVEQi=gSA+G=b|F`ooFbEKEsAo*r
+z&lt6dQPWw#IE@h~pMHiZEj>k`Zn`&+!&nmJ7tG-B>_!@p6YJ^X7*Y{edfJfB!9k+s
+zqQ8ntHM6?F@d8fHscswRz9>1@aO2Oa+&hyyHGDr$I?1!6sOvz&HHS3+D!q$=ol_%Q
+z`kiE+EK<%aWys&wcuT5aZ7)MzzY=f98<7ov3Yc$ks;<@Svpx;9h{4m<&t;ucLK6U|
+CZ$^;-
+
+literal 0
+HcmV?d00001
+
+diff --git a/markers/transition/muller.png b/markers/transition/muller.png
+new file mode 100644
+index 0000000000000000000000000000000000000000..4c49642abe7190480391c02f3ee52ff3bfb53b71
+GIT binary patch
+literal 219
+zcmeAS@N?(olHy`uVBq!ia0vp^JU}eM!VDz6?;TVEQtAOdA+G=b|BsH2E-x<+2nblP
+zU_nAcf}5M$rcIliot=S7($dn-oH^s|?Om+p?+WBImIV0)GdMiEkp|=>dAc};RK%5@
+zR^)1Nka7EXyuqMD{ZiW2oX-Mk%?c4YY~Ah=2D9$8#?E-p5$E-v*)9I(Qg+XM`x-o7
+z9eka&#LSB8@#(ad*@u5T?3t9)!MynkW6(<0n5E_ppZj+-JpImbnpu7AW!)F?LUvU^
+P+Za4u{an^LB{Ts5{F+h@
+
+literal 0
+HcmV?d00001
+
+diff --git a/markers/transition/official.png b/markers/transition/official.png
+new file mode 100644
+index 0000000000000000000000000000000000000000..429ea5803460d0e07358701e6f9ba6f5834d28d5
+GIT binary patch
+literal 210
+zcmeAS@N?(olHy`uVBq!ia0vp^JU}eM!VDz6?;TVEQi=gSA+G=b|JU`__lojP&rDZI
+zP&2=8FCU;JU#|j`xBu^<HcR{EXJbzwhp{BcFPOpM*^M+HC*IS=F{C1{^t2-1Ap-`t
+zhwQ!zFL|rFrOs_QbE#zsU-JP)gW}zXrcHeIe9LWpweM$^%eB0l-8lVAL-)3McYGF_
+zb2n#NpY(AFwg~6{Fzw%g&|S<6UolUpyLqI|`YhWq=CD+D6?dg;FRlWuV(@hJb6Mw<
+G&;$TXcui^m
+
+literal 0
+HcmV?d00001
+
+diff --git a/markers/transition/person.png b/markers/transition/person.png
+new file mode 100644
+index 0000000000000000000000000000000000000000..543f44892b1809a36cfbcec15689abe26ba736a8
+GIT binary patch
+literal 210
+zcmeAS@N?(olHy`uVBq!ia0vp^JU}eM!VDz6?;TVEQi=gSA+G=b{|^my$jC@txl;Mv
+zJHvbT^!)v0>+7X}^8fys#>XoN+5Oc7au`d3{DK)Ap4~_Ta^gK*978JNN>6X(Y%maU
+zy_nr%(LA@8dq<;o1jox9ol7^fp7Ln5y=Qtf?HRky-m{JD{Ac!t9MHJbJoSdd+7g>n
+zN7uCU2U%)PX*;u&IWC1gHu`|YOol&!nw1Wlqnp0Ai*L$Q`O3KG>vo`344$rjF6*2U
+FngEe|PGSH6
+
+literal 0
+HcmV?d00001
+
+diff --git a/markers/transition/project.png b/markers/transition/project.png
+new file mode 100644
+index 0000000000000000000000000000000000000000..c100d10dfc0266cbad60b2d641df0e0631f6879a
+GIT binary patch
+literal 210
+zcmeAS@N?(olHy`uVBq!ia0vp^JU}eM!VDz6?;TVEQi=gSA+G=b|JOF~_VA8MPtTN9
+zk5_fPC#CE!s#*_}*Y^G=sXMdke0wX9!&nmJ7tG-B>_!@p6YuHb7*Y{edRme1kO70+
+zLv~+<m%LToQs*|Dxzw_RulazYLGkWG(<VN9zU8*Q+V?Zd<yzj&Zk+z5p?llBJ3b4|
+zxtlYsPx`n7TZHp}nD*~L=q~1kub3y)-8|A}eU|MQb66_7io4Ra7gvE+F?hQAxvX<a
+GXaWEo*-an-
+
+literal 0
+HcmV?d00001
+
+diff --git a/markers/transition/shadow.png b/markers/transition/shadow.png
+new file mode 100644
+index 0000000000000000000000000000000000000000..3a89759fca2a68217f42a4ef95851a179df425aa
+GIT binary patch
+literal 436
+zcmV;l0ZaagP)<h;3K|Lk000e1NJLTq000&M000yS1^@s6iG0m400004XF*Lt006JZ
+zHwB960000PbVXQnQ*UN;cVTj606}DLVr3vnZDD6+Qe|Oed2z{QJOBUzMoC0LRCwC#
+zl}$^-KoEvA>Bd$>L6mwZ>Olnm|4;DXUG(ayirP}YKdNc6z9a9*AWdomxfyu6P1${B
+zc6O3Vj4^5BN|TnZe{uWb&}5N_{CwpYe|J|{Qj|KOxG52H)Eq5{Eb3!Q^`k>^hnU=i
+z1(<Ox!ykn@F9SW$1uOhb1C<oMgIA6*)JRh<R@u5^4Xjdb;wg9lw_seCams}oU>o$o
+z7KJ^RZNf5qGT;Yz)IecQwzhqh?t@*hNukwQoU|l~t8uK#IAf-JV8?CSgeEIkQ!T@g
+zrKqfNbaKCKai^cNuFv2GT!M)n9=fcU+sEHMD55pH2QMsxIH8{Wh#B62C-7#%MGwe~
+z(kZjdd4B~in4R9|RnI|PS7bbC4RQ_6IqG)Hrtb>f`T-b#GjO6UwamXwmG}r8f@8=|
+eo4lyL1Q-Blj(5{0o>}z(0000<MNUMnLSTXlZM+Kr
+
+literal 0
+HcmV?d00001
+
+diff --git a/markers/transition/transition.ini b/markers/transition/transition.ini
+new file mode 100644
+index 0000000000000000000000000000000000000000..cd17ce5b5df7dd9f12cc3a96047dedab1980c8b6
+--- /dev/null
++++ b/markers/transition/transition.ini
+@@ -0,0 +1,54 @@
++; Defaults
++[defaults]
++shadow = "shadow.png"
++anchorX = 7
++anchorY = 19
++infoX = 10
++infoY = 2
++
++; Marker sets
++
++; initiative status
++
++[official]
++name = "Small Official status"
++sequence = "official.png"
++
++[muller]
++name = "Small Mulling status"
++sequence = "muller.png"
++
++; Files
++
++
++[initiative_profile]
++name = "Initiative"
++sequence = "initiative.png"
++
++[initiative_hub_profile]
++name = "Initiative"
++sequence = "initiative-hub.png"
++
++[profile]
++name = "Person"
++sequence = "person.png"
++
++[project_profile]
++name = "Project"
++sequence = "project.png"
++
++[imported_event]
++name = "Imported event"
++sequence = "event.png"
++
++[imported_event]
++name = "Imported event"
++sequence = "event.png"
++
++[initiative_event]
++name = "CMS event"
++sequence = "event.png"
++
++[initiative_event_extrnal]
++name = "Initiative event"
++sequence = "event.png"
