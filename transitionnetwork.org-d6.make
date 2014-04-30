@@ -9,7 +9,7 @@ api = 2
 ; -- see; https://github.com/omega8cc/nginx-for-drupal/search?q=pressflow
 projects[pressflow][type] = "core"
 projects[pressflow][download][type] = "get"
-projects[pressflow][download][url] = "http://files.aegir.cc/core/pressflow-6.30.1.tar.gz"
+projects[pressflow][download][url] = "http://files.aegir.cc/core/pressflow-6.31.1.tar.gz"
 
 
 ; Modules - Contrib with versions or patched
