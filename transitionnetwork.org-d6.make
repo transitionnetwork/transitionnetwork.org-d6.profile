@@ -56,6 +56,8 @@ projects[location][subdir] = "contrib"
 projects[location][version] = "3.x-dev"
 ; Patch for French departments now in codebase but being worked on - https://drupal.org/node/635958
 ;projects[location][patch][635958] = "http://drupal.org/files/france_provinces_complete-635958-24.patch"
+projects[location][patch][tn02] = ​http://drupal.org/files/issues/location.module_34.patch
+
 
 ; logintoboggan -- use dev plus our patch for better MySQL performance
 ; see:- https://tech.transitionnetwork.org/trac/ticket/590#comment:1
