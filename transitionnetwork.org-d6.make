@@ -54,6 +54,7 @@ projects[link][version] = "2.x-dev"
 ; location -- latest dev
 projects[location][subdir] = "contrib"
 projects[location][version] = "3.x-dev"
+projects[location][patch][tn02] = ​http://drupal.org/files/issues/location.module_34.patch
 
 ; logintoboggan -- use dev plus our patch for better MySQL performance
 ; see:- https://tech.transitionnetwork.org/trac/ticket/590#comment:1
