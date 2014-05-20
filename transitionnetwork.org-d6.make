@@ -9,7 +9,7 @@ api = 2
 ; -- see; https://github.com/omega8cc/nginx-for-drupal/search?q=pressflow
 projects[pressflow][type] = "core"
 projects[pressflow][download][type] = "get"
-projects[pressflow][download][url] = "http://files.aegir.cc/core/pressflow-6.30.1.tar.gz"
+projects[pressflow][download][url] = "http://files.aegir.cc/core/pressflow-6.31.1.tar.gz"
 
 
 ; Modules - Contrib with versions or patched
@@ -29,11 +29,6 @@ projects[content_profile][version] = "1.x-dev"
 projects[context][subdir] = "contrib"
 projects[context][version] = "2.x-dev"
 projects[context][patch][tn01] = "https://raw.github.com/transitionnetwork/transitionnetwork.org-d6.profile/master/patches/tn01_context-blockcache-alter-enable.patch"
-
-; ctools -- dev fixes ctools preg_match() error: http://drupal.org/node/1444006#comment-6362100
-projects[ctools][subdir] = "contrib"
-projects[ctools][version] = "1.10"
-projects[ctools][patch][1444006] = "http://drupal.org/files/ctools-1444006-disallowed-unicode-code-point-18.patch"
 
 ; custom_breadcrumbs -- using newer dev version that fixes some bugs
 projects[custom_breadcrumbs][subdir] = "contrib"
@@ -157,6 +152,7 @@ projects[contact][subdir] = "contrib"
 projects[content_access][subdir] = "contrib"
 projects[content_taxonomy][subdir] = "contrib"
 projects[cnr][subdir] = "contrib"
+projects[ctools][subdir] = "contrib"
 projects[data][subdir] = "contrib"
 projects[date][subdir] = "contrib"
 projects[dbtng][subdir] = "contrib"
