@@ -9,7 +9,7 @@ api = 2
 ; -- see; https://github.com/omega8cc/nginx-for-drupal/search?q=pressflow
 projects[pressflow][type] = "core"
 projects[pressflow][download][type] = "get"
-projects[pressflow][download][url] = "http://files.aegir.cc/core/pressflow-6.31.1.tar.gz"
+projects[pressflow][download][url] = "http://files.aegir.cc/core/pressflow-6.32.1.tar.gz"
 
 
 ; Modules - Contrib with versions or patched
@@ -54,7 +54,7 @@ projects[link][version] = "2.x-dev"
 ; location -- latest dev
 projects[location][subdir] = "contrib"
 projects[location][version] = "3.x-dev"
-projects[location][patch][tn02] = ​http://drupal.org/files/issues/location.module_34.patch
+projects[location][patch][tn02] = "https://www.drupal.org/files/issues/location.module_34.patch"
 
 ; logintoboggan -- use dev plus our patch for better MySQL performance
 ; see:- https://tech.transitionnetwork.org/trac/ticket/590#comment:1
